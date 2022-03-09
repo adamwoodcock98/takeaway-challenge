@@ -11,10 +11,6 @@ class Menu
     {:dish => "Fanta", :price => 1.75}
   ]
 
-  def initialize
-    # print view_formatted_menu
-  end
-
   def view_menu
     MENU
   end

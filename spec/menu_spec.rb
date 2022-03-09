@@ -13,6 +13,8 @@ describe Menu do
     expect(subject.view_formatted_menu(menu)).to eq "Cod - £8.25"
   end
 
+  context 'interacting with specific dishes'
+
   it 'should return true if the item exists' do
     expect(subject.contains?("Cod")).to eq true
   end
